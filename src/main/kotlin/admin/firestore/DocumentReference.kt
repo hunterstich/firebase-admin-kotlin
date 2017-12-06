@@ -2,6 +2,13 @@ package admin.firestore
 
 import kotlin.js.Promise
 
+/**
+ * A DocumentReference refers to a document location in a Firestore database and can be used to write, read,
+ * or listen to the location. The document at the referenced location may or may not exist.
+ * A DocumentReference can also be used to create a CollectionReference to a subcollection.
+ *
+ * @see <a href="https://cloud.google.com/nodejs/docs/reference/firestore/0.10.x/DocumentReference">DocumentReference</a>
+ */
 external interface DocumentReference {
     val firestore: Firestore
     val id: String
