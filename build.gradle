@@ -10,7 +10,7 @@ buildscript {
 }
 
 group 'com.hunters'
-version '0.1-SNAPSHOT'
+version '0.1.1-SNAPSHOT'
 
 apply plugin: 'kotlin2js'
 
