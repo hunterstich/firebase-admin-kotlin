@@ -1,4 +1,4 @@
-package firestore
+package admin.firestore
 
 external interface DocumentSnapshot {
     val createTime: String

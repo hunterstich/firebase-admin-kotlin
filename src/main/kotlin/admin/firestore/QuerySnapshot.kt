@@ -1,4 +1,4 @@
-package firestore
+package admin.firestore
 
 external interface QuerySnapshot {
     val docChanges: Array<DocumentChange>

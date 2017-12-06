@@ -1,4 +1,4 @@
-package firestore
+package admin.firestore
 
 external interface Firestore {
     val app: dynamic //The app associated with this Firestore service instance
