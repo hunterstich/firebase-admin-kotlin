@@ -1,0 +1,3 @@
+package firestore
+
+external interface DocumentData
