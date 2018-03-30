@@ -19,7 +19,7 @@ external interface DocumentReference {
     fun delete(precondition: Precondition = definedExternally): Promise<WriteResult>
     fun get(): Promise<DocumentSnapshot>
     fun getCollections(): Promise<Array<CollectionReference>>
-    fun set(data: DocumentData, options: SetOptions = definedExternally): Promise<WriteResult>
+    fun set(data: dynamic, options: SetOptions = definedExternally): Promise<WriteResult>
 
     /**
      * @param dataOrField - (UpdateData, string, or FieldPath)
