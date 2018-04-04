@@ -10,6 +10,6 @@ external interface CollectionReference: Query {
     val firestore: Firestore
     val id: String
     val parent: DocumentReference?
-    fun add(data: DocumentData): Promise<DocumentData>
+    fun add(data: dynamic): Promise<DocumentData>
     fun doc(documentPath: String): DocumentReference
 }
