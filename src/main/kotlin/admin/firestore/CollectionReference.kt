@@ -12,5 +12,6 @@ external interface CollectionReference {
     val parent: DocumentReference?
     fun add(data: DocumentData): Promise<DocumentData>
     fun doc(documentPath: String): DocumentReference
+    fun where(fieldPath: String, opStr: String, value: Any)
     fun get(): Promise<QuerySnapshot>
 }
